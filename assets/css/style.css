@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  background-image: url(imgs/bg-1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: fit-content;
+  padding-bottom: 50px;
+}
+.navbar {
+  background: rgba(255, 255, 255, 0.3);
+  height: 10vh;
+}
+.edu-brand {
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+}
+.navbar a {
+  color: #fff;
+  z-index: 10;
+  font-size: medium;
+  font-weight: 500;
+}
+.navbar a:hover {
+  color: #fff;
+}
+ul {
+  margin-left: 500px;
+}
+
+.content-section {
+  color: #fff;
+  margin-top: 150px;
+}
+.content-section h6 {
+  font-weight: 700;
+}
+.content-section h2 {
+  font-weight: 800;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.content-section span {
+  color: #41a7c0;
+}
+.content-section button {
+  background-color: #9f2b2e;
+  color: #fff;
+  width: 170px;
+  height: fit-content;
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.edu-card {
+  background-color: #9f2b2e;
+  text-align: center;
+  color: #fff;
+  border-radius: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.edu-card i {
+  color: #ffad1f;
+  font-size: 50px;
+}
