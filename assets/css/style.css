@@ -73,3 +73,21 @@ ul {
   color: #ffad1f;
   font-size: 50px;
 }
+
+@media (max-width: 767px) {
+  .edu-card {
+    margin-bottom: 20px;
+  }
+  ul {
+    margin-left: 0px;
+  }
+  .navbar a {
+    color: #fff;
+    z-index: 10;
+    font-size: x-small;
+    font-weight: 500;
+  }
+  .content-section {
+    margin-top: 200px;
+  }
+}
